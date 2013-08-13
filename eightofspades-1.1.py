@@ -155,6 +155,7 @@ class Human(Player):
         while (True):
             try:
                 guess = int(raw_input("What do you think card number " + str(card) + " is?"))
+                break
             except ValueError:
                 pass
         if (guess < 1 or guess > 5):
