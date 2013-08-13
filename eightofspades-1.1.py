@@ -141,6 +141,7 @@ class Human(Player):
         while (True):
             try:
                 card = int(raw_input(self.name + ", please select a card number:"))
+                break
             except ValueError:
                 pass
         if (board.mask[card - 1] != 0 or card <= 0 or card > 52):
