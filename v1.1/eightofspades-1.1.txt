@@ -1,0 +1,7 @@
+Changelog
+
+Added base class "Player" to enable easier adding of code and difficulty settings later
+Added error handling for user input of strings turned into integers
+Added turn skipping when no valid option exists
+Added game ending when only illuminati remains and no one has 5 points to spend
+Finished perfect play computer ai

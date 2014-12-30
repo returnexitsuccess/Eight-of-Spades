@@ -1,0 +1,16 @@
+Changelog
+
+Added game win upon drawing the eight of spades on a players first turn according to the rules
+Changed around user input code to give a line break
+Added naiveComputer class for an easy mode of cpu play
+Shuffle order of players so humans dont always go first followed by computers all at once
+Added Blake class as child of naiveComputer class for a medium mode of cpu play
+added debug mode
+no longer tries to clear console when run in idle
+Fixed Gameover code
+Added Gameover text, "The End is the Beginning"
+Limited number of players to less than 20
+Human players no longer allows repeat names, blank names, and names that are not less than 20 characters
+Program doesn't force quit on moves a player cant make
+Placed all code outside of methods and classes into a "main" method which is called at the very end
+Ends game if all players are removed
